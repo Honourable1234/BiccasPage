@@ -1,6 +1,6 @@
 import './App.css'
 import HeroSection from './Components/HeroSection'
-import Support from "./Components/support"
+import Support from "./Components/Support"
 import Features from "./Components/Features"
 import Benefits from "./Components/Benefits"
 import RightPlan from "./Components/RightPlan"
