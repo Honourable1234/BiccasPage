@@ -5,7 +5,7 @@ import Command1 from "./../assets/Images/Command1.png"
 import Group152 from "./../assets/Images/Group152.png"
 import Group153 from "./../assets/Images/Group153.png"
 import Small from "./Small"
-function support() {
+function Support() {
   return (
     <div className={styles.support}>
       <div className={styles.firstPart}>
@@ -33,4 +33,4 @@ function support() {
   )
 }
 
-export default support
+export default Support
