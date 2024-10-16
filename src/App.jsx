@@ -1,9 +1,9 @@
-import HeroSection from './Components/HeroSection.jsx'
-import Support from "./Components/support.jsx"
-import Features from "./Components/Features.jsx"
-import Benefits from "./Components/Benefits.jsx"
-import RightPlan from "./Components/RightPlan.jsx"
-import Footer from "./Components/Footer.jsx"
+import HeroSection from './Components/HeroSection'
+import Support from "./Components/support"
+import Features from "./Components/Features"
+import Benefits from "./Components/Benefits"
+import RightPlan from "./Components/RightPlan"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
