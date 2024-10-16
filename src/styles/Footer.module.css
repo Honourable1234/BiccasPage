@@ -1,0 +1,428 @@
+.Footer{
+    min-height: 700px;
+    background-color: black;
+    padding-top: 80px;
+}
+.firstPart{
+    display: flex;
+    width: 80%;
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+}
+.box1{
+    width: 350px;
+}
+.box1 h2{
+    font-size: 35px;
+}
+.box1 h1{
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+}
+.box1 p{
+    font-size: 14px;
+}
+.box2{
+    width: 350px;
+    height: 350px;
+    background-color: #222938;
+    border-radius: 10px;
+    text-align: center;
+}
+.circleDiv{
+    width: 30px;
+    margin: 30px auto;
+}
+.circleDiv img{
+    width: 30px;
+}
+.p{
+    margin-top: -30px;
+}
+.form{
+    text-align: left;
+    width: 300px;
+    margin: 50px auto;
+    font-size: 11px;
+}
+.form input{
+    width: 300px;
+    height: 35px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btnL{
+    width: 300px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #54BD95;
+}
+.secondPart{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin: 80px auto;
+}
+.box3{
+    width: 300px;
+    height: 150px;  
+}
+.box3 h2{
+    color: #54BD95;
+    font-size: 35px;
+}
+.box3 p{
+    font-size: 12px;
+}
+.box3 input{
+    width: 250px;
+    height: 35px;
+    border-radius: 14px;
+    margin-top: 30px;
+}
+.box4{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+.box4 div p{
+    font-size: 12px;
+}
+.box4 ul{
+    margin-top: 11px;
+    list-style: none;
+    font-size: 10px;
+}
+.box4 ul li{
+    line-height: 30px;
+}
+@media (max-width: 940px){
+    .firstPart{width: 90%;}
+    .secondPart{width: 90%;}
+}
+@media (max-width: 840px){
+    .box1{
+        width: 250px;
+    }
+    .box1 h2{
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .box1 h1{
+        font-size: 70px;
+        margin-top: 6px;
+        margin-bottom: -35px;
+    }
+    .box1 p{
+        font-size: 11px;
+    }
+    .box2{
+        width: 250px;
+        height: 250px;
+    }
+    .circleDiv{
+        width: 20px;
+        margin: 20px auto;
+    }
+    .circleDiv img{
+        width: 20px;
+    }
+    .p{
+        margin-top: -20px;
+    }
+    .form{
+        width: 200px;
+        margin: 20px auto;
+        font-size: 9px;
+    }
+    .form input{
+        width: 200px;
+        height: 30px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .btnL{
+        width: 200px;
+        height: 30px;
+    }
+    .box3{
+        width: 200px;
+        height: 110px;  
+    }
+    .box3 h2{
+        font-size: 30px;
+    }
+    .box3 p{
+        font-size: 10px;
+    }
+    .box3 input{
+        width: 180px;
+        height: 30px;
+        border-radius: 11px;
+        margin-top: 15px;
+    }
+    .box4{
+        width: 250px;
+        justify-content: space-between;
+    }
+    .box4 div p{
+        font-size: 8px;
+    }
+    .box4 ul{
+        font-size: 7px;
+    }
+    .box4 ul li{
+        line-height: 25px;
+    } 
+}
+@media (max-width: 600px){
+    .firstPart{
+        display: block;
+        width: 300px;
+        margin: auto;   
+    }
+    .box1{
+        width: 350px;
+    }
+    .box1 h2{
+        font-size: 35px;
+    }
+    .box1 h1{
+        font-size: 100px;
+        margin-top: 10px;
+        margin-bottom: -25px;
+    }
+    .box1 p{
+        font-size: 14px;
+    }
+    .box2{
+        width: 350px;
+        height: 350px;
+        background-color: #222938;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .circleDiv{
+        width: 30px;
+        margin: 30px auto;
+    }
+    .circleDiv img{
+        width: 30px;
+    }
+    .p{
+        margin-top: -30px;
+    }
+    .form{
+        text-align: left;
+        width: 300px;
+        margin: 50px auto;
+        font-size: 11px;
+    }
+    .form input{
+        width: 300px;
+        height: 35px;
+        border-radius: 6px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btnL{
+        width: 300px;
+        height: 35px;
+        border-radius: 6px;
+        background-color: #54BD95;
+    }
+    .secondPart{
+        display: block;
+        width: 300px;
+        margin: 80px auto;
+    }
+    .box3{
+        width: 300px;
+        height: 150px;  
+    }
+    .box3 h2{
+        color: #54BD95;
+        font-size: 35px;
+    }
+    .box3 p{
+        font-size: 12px;
+    }
+    .box3 input{
+        width: 250px;
+        height: 35px;
+        border-radius: 14px;
+        margin-top: 30px;
+    }
+    .box4{
+        display: flex;
+        width: 350px;
+        justify-content: space-between;
+    }
+    .box4 div p{
+        font-size: 12px;
+    }
+    .box4 ul{
+        margin-top: 11px;
+        list-style: none;
+        font-size: 10px;
+    }
+    .box4 ul li{
+        line-height: 30px;
+    }    
+}
+@media (max-width: 400px){
+    .box1{
+        width: 250px;
+        margin: auto;
+    }
+    .box1 h2{
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .box1 h1{
+        font-size: 70px;
+        margin-top: 6px;
+        margin-bottom: -35px;
+    }
+    .box1 p{
+        font-size: 11px;
+    }
+    .box2{
+        width: 250px;
+        margin: auto;
+        height: 250px;
+    }
+    .circleDiv{
+        width: 20px;
+        margin: 20px auto;
+    }
+    .circleDiv img{
+        width: 20px;
+    }
+    .p{
+        margin-top: -20px;
+    }
+    .form{
+        width: 200px;
+        margin: 20px auto;
+        font-size: 9px;
+    }
+    .form input{
+        width: 200px;
+        height: 30px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .btnL{
+        width: 200px;
+        height: 30px;
+    }
+    .box3{
+        width: 200px;
+        height: 110px;  
+        margin: auto;
+    }
+    .box3 h2{
+        font-size: 30px;
+    }
+    .box3 p{
+        font-size: 10px;
+    }
+    .box3 input{
+        width: 180px;
+        height: 30px;
+        border-radius: 11px;
+        margin-top: 15px;
+    }
+    .box4{
+        width: 250px;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .box4 div p{
+        font-size: 8px;
+    }
+    .box4 ul{
+        font-size: 7px;
+    }
+    .box4 ul li{
+        line-height: 25px;
+    } 
+}
+@media (max-width: 320px){
+    .box1{
+        width: 150px;
+        margin: auto;
+    }
+    .box1 h2{
+        font-size: 15px;
+        margin-top: 21px;
+    }
+    .box1 h1{
+        font-size: 50px;
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
+    .box1 p{
+        font-size: 9px;
+    }
+    .box2{
+        width: 180px;
+        height: 200px;
+    }
+    .circleDiv{
+        width: 15px;
+        margin: 15px auto;
+    }
+    .circleDiv img{
+        width: 15px;
+    }
+    .form{
+        width: 150px;
+        margin: 17px auto;
+        font-size: 7px;
+    }
+    .form input{
+        width: 150px;
+        height: 22px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .btnL{
+        width: 150px;
+        height: 22px;
+    }
+    .box3{
+        width: 150px;
+        height: 90px;  
+        margin: 50px auto;
+    }
+    .box3 h2{
+        font-size: 20px;
+    }
+    .box3 p{
+        font-size: 8px;
+    }
+    .box3 input{
+        width: 140px;
+        height: 25px;
+        border-radius: 8px;
+        margin-top: 12px;
+    }
+    .box4{
+        width: 200px;
+    }
+    .box4 div p{
+        font-size: 6px;
+    }
+    .box4 ul{
+        font-size: 5px;
+    }
+    .box4 ul li{
+        line-height: 15px;
+    }
+}
